@@ -1,20 +1,20 @@
 import {
-  c,
-  python,
-  java,
-  cpp,
   javascript,
+  reactjs,
+  dart,
+  flutter,
   html,
   css,
-  reactjs,
   tailwind,
   nodejs,
   git,
+  postgresql,
+  firebase,
+  threejs,
   edunet,
   weatherpedia,
   termpw,
   payloadmaster,
-  threejs,
   mhft,
   sketcher,
   mathwork,
@@ -38,133 +38,120 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "JavaScript", icon: javascript },
+  { title: "React JS", icon: reactjs },
+  { title: "Dart", icon: dart },
+  { title: "Flutter", icon: flutter },
 ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
+  { name: "React JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
+  { name: "Flutter", icon: flutter },
+  { name: "PostgreSQL", icon: postgresql },
+  { name: "Firebase", icon: firebase },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "Frontend Developer Intern",
+    company_name: "Ehizua Hub | TechSchool",
     icon: eduskill,
     iconBg: "#161329",
     date: "Sep 2023 - Nov 2023",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Acquired hands-on knowledge of frontend development, building responsive projects using modern web technologies.",
+      "Mentored students at the hub on HTML, CSS, and JavaScript fundamentals, significantly improving their foundational skills.",
+      "Developed and deployed multiple responsive web applications, enhancing my communication skills and technical confidence.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "Junior Frontend Developer",
+    company_name: "Digital Solutions Inc",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Dec 2023 - Mar 2024",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Built and optimized responsive user interfaces using React.js and Tailwind CSS for various client projects.",
+      "Collaborated with UI/UX designers to implement pixel-perfect designs and improve overall user experience.",
+      "Debugged and resolved frontend issues, reducing page load time by 40% through code optimization and performance tuning.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
+    title: "Full Stack Developer",
+    company_name: "TechVision Labs",
     icon: edunet,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "Apr 2024 - dec 2024",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Developing full-stack web applications using React.js for frontend and Node.js for backend services.",
+      "Designed and implemented RESTful APIs and integrated Firebase for real-time database functionality.",
+      "Implemented PostgreSQL databases and managed data migrations, ensuring data integrity and security across applications.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Typefaster",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Web-based game platform that allows users to practice and improve their typing speed through engaging typing tests game words fall down and you type them before the reach the bottom levels increases, speed increases and words become longer as you go higher. Currently being worked on to add more features and improve user experience and only compatible for laptop for now.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "REACT", color: "green-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
+      { name: "firebase", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/Dicksonobodo/typefaster",
+    live_link: "https://dicksonobodo.github.io/typefaster/",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "annonymous-messager",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A web-based anonymous messaging platform that allows users to send and receive messages without revealing their identity, only the admin can see all messages from the admin dashboard built it for a group just for fun and bants the project.added firebase for the backend and authentication including email and password, google authentication.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
+      { name: "REACT", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Firebase", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/Dicksonobodo/anonymous-message",
+    live_link: "https://dicksonobodo.github.io/anonymous-message/",
+
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "opaycloneproject",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "An opayclone project built with flutter just the design not fully completed yet.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
+      { name: "flutter", color: "blue-text-gradient" },
+      { name: "dart", color: "green-text-gradient" },
+      { name: "firebase", color: "pink-text-gradient" },],
     image: mhft,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+      "https://github.com/Dicksonobodo/opaycloneproject",
+    live_link: "https://dicksonobodo.github.io/opaycloneproject/",
+
   },
   {
-    name: "PayloadMaster",
+    name: "Shopping Cart",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "A simple shopping cart application with authentication screen built with JavaScript, HTML, CSS and node.js, postegres for backend and database that allows users to add, remove, and view items in their cart with a clean and user-friendly interface.",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "node.js", color: "blue-text-gradient" },
+      { name: "postgresql", color: "blue-text-gradient" },
     ],
     image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link: "https://github.com/Dicksonobodo/product-list-with-cart-main-main",
+    live_link: "https://dixoncart.vercel.app/",
   },
 ];

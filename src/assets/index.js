@@ -26,12 +26,20 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import dart from "./tech-stack/dart.png";
+import flutter from "./tech-stack/flutter.png";
+import postgresql from "./tech/postegresql.png";
+import firebase from "./tech/firebase.png";
 
 // Import common assets
 import logo from "./logo.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import whatsapp from "./socials/whatsapp.jpeg";
+import linkedin from "./socials/linkedin.png";
+import x from "./socials/x.jpeg";
+import instagram from "./socials/ig.jpeg";
 
 export {
   mathwork,
@@ -49,6 +57,10 @@ export {
   reactjs,
   tailwind,
   threejs,
+  dart,
+  flutter,
+  postgresql,
+  firebase,
   weatherpedia,
   termpw,
   payloadmaster,
@@ -59,4 +71,8 @@ export {
   menu,
   close,
   eduskill,
+  whatsapp,
+  linkedin,
+  x,
+  instagram,
 };
