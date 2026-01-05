@@ -16,9 +16,9 @@ import {
   termpw,
   payloadmaster,
   mhft,
-  sketcher,
+  // sketcher,
   mathwork,
-  CompileVortex,
+  // CompileVortex,
   eduskill,
 } from "../assets";
 
@@ -153,5 +153,17 @@ export const projects = [
     image: payloadmaster,
     source_code_link: "https://github.com/Dicksonobodo/product-list-with-cart-main-main",
     live_link: "https://dixoncart.vercel.app/",
+  },
+  {
+    name: "chat-app",
+    description:
+      "A real-time chat application built with flutter and firebase that allows users to send and receive messages instantly with a clean and user-friendly interface.",
+    tags: [
+      { name: "flutter", color: "blue-text-gradient" },
+      { name: "dart", color: "green-text-gradient" },
+      { name: "firebase", color: "pink-text-gradient" },],
+    image: payloadmaster,
+    source_code_link: "https://github.com/Dicksonobodo/chat-app",
+    live_link: "https://github.com/Dicksonobodo/chat-app",
   },
 ];
