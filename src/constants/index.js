@@ -166,4 +166,40 @@ export const projects = [
     source_code_link: "https://github.com/Dicksonobodo/chat-app",
     live_link: "https://github.com/Dicksonobodo/chat-app",
   },
+  {
+    name: "cloth-ordering-app",
+    description:
+      "A cloth ordering application i built for a client allows users to browse, select, and order cloth items with a clean and user-friendly interface orders and sent directly to the client whatsapp customers can also track orders.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "firebase", color: "pink-text-gradient" },],
+    image: payloadmaster,
+    source_code_link: "https://github.com/Dicksonobodo/liluxe",
+    live_link: "https://Liluxe.store",
+  },
+  {
+    name: "food ordering app",
+    description:
+      "A food ordering app i built for a client that allows users to browse, select, and order food items with a clean and user-friendly interface orders and sent directly to the client whatsapp customers can also track orders.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "firebase", color: "pink-text-gradient" },],
+    image: payloadmaster,
+    source_code_link: "https://github.com/Dicksonobodo/success-kitchen",
+    live_link: "Https://success-kitchen-fihi.vercel.app",
+  },
+  {
+    name: "Bank-app",
+    description:
+      "A banking application built with react and firebase that allows users to manage their accounts, view transactions, and perform banking operations and transactions with a clean and user-friendly interface. balance is not real and transactions are not real just for fun and practice and the balance can be set to any amount by the admin.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "firebase", color: "pink-text-gradient" },],
+    image: payloadmaster,
+    source_code_link: "https://github.com/Dicksonobodo/dixon-bank",
+    live_link: "Https://dixon-bank-m14q.vercel.app",
+  },
 ];
